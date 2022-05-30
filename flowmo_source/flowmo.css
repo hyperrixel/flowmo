@@ -1,0 +1,164 @@
+:root {
+
+  --flowmo-app-size: 13vmin;
+
+  --flowmo-font-default-size: 2vmin;
+  --flowmo-font-normal: 1.2rem;
+
+  --flowmo-default-transition: all 0.1s linear;
+
+}
+
+.flowmo-app {
+  bottom: 5vmin;
+  height: var(--flowmo-app-size);
+  max-height: var(--flowmo-app-size);
+  max-width: var(--flowmo-app-size);
+  min-height: var(--flowmo-app-size);
+  min-width: var(--flowmo-app-size);
+  position: fixed;
+  right: 5vmin;
+  width: var(--flowmo-app-size);
+  z-index: 65532;
+}
+
+
+.flowmo-app object {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.flowmo-app-cover {
+  bottom: 5vmin;
+  height: var(--flowmo-app-size);
+  max-height: var(--flowmo-app-size);
+  max-width: var(--flowmo-app-size);
+  min-height: var(--flowmo-app-size);
+  min-width: var(--flowmo-app-size);
+  position: fixed;
+  right: 5vmin;
+  width: var(--flowmo-app-size);
+  z-index: 65533;
+}
+
+.flowmo-box {
+  background-color: #fff0e0;
+  /* border: 0.1vmin solid #000000; */
+  border-radius: 1vmin;
+  bottom: 17vmin;
+  color: #000000;
+  font-size: var(--flowmo-font-default-size);
+  max-height: 20vmin;
+  max-width: 30vmin;
+  min-height: 20vmin;
+  min-width: 30vmin;
+  padding: 1vmin;
+  right: 14vmin;
+  position: fixed;
+  z-index: 65535;
+}
+
+.flowmo-box:after {
+  border: 1.9vmin solid transparent;
+  border-top-color: #fff0e0;
+  content: '';
+  display: block;
+  height: 0;
+  position: absolute;
+  right: 1.1vmin;
+  top: 19.8vmin;
+  width: 0;
+}
+
+/*
+.flowmo-box:before {
+  border: 2vmin solid transparent;
+  border-top-color: #000000;
+  top: 20vmin;
+  content: '';
+  display: block;
+  height: 0;
+  position: absolute;
+  right: 1vmin;
+  width: 0;
+}
+*/
+
+.flowmo-box-content {
+  display: block;
+  max-width: 100%;
+  min-width: 100%;
+  width: 100%;
+}
+
+.flowmo-box-title {
+  display: block;
+  font-size: 1.5em;
+  font-weight: 600;
+  max-width: 100%;
+  min-width: 100%;
+  width: 100%;
+}
+
+.flowmo-menu {
+  background-color: #404040;
+  bottom: 20vmin;
+  color: #ffffff;
+  height: 30vmin;
+  min-height: 30vmin;
+  min-width: 20vmin;
+  padding: 1vmin;
+  position: fixed;
+  right: 5vmin;
+  width: 20vmin;
+  z-index: 65534;
+}
+
+.flowmo-menu-item {
+  color: #ffffff;
+  display: block;
+  margin-bottom: 0.5vmin;
+  padding: 0.5vmin;
+  transition: var(--flowmo-default-transition);
+}
+
+.flowmo-menu-item:hover {
+  background-color: #606060;
+}
+
+.flowmo-menu-item-disabled {
+  color: #808080;
+  display: block;
+  margin-bottom: 0.5vmin;
+  padding: 0.5vmin;
+  transition: var(--flowmo-default-transition);
+}
+
+.flowmo-menu-item-disabled:hover {
+  background-color: #606060;
+}
+
+/** -sm **/
+@media (min-width: 576px) {
+
+}
+
+/** -md **/
+@media (min-width: 768px) {
+
+}
+
+/** -lg **/
+@media (min-width: 992px) {
+
+}
+
+/** -xl **/
+@media (min-width: 1200px) {
+
+}
+
+/** -xxl **/
+@media (min-width: 1440px) {
+
+}
